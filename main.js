@@ -26,42 +26,43 @@ const btn_random = $('.btn-random');
 
 const app = {
     songs:  [
-        {
+       {
             name: 'iu là đây',
             singer: 'Sean, Muooiji, Anfang',
-            path:'/asset/music/iu-la-day-Sean-Muoii-Anfang.mp3',
-            image: '/asset/img/iu_la_day.jpg'
+            path:'/MusicPlayer/asset/music/iu-la-day-Sean-Muoii-Anfang.mp3',
+            image: '/MusicPlayer/asset/img/iu_la_day.jpg'
         },
         {
             name: 'Ánh nắng của anh',
             singer: 'Đức Phúc',
-            path:'/asset/music/Anh-Nang-Cua-Anh-Cho-Em-Den-Ngay-Mai-OST-Duc-Phuc.mp3',
-            image: '/asset/img/anh_nang_cua_anh.jpg'
+            path:'/MusicPlayer/asset/music/Anh-Nang-Cua-Anh-Cho-Em-Den-Ngay-Mai-OST-Duc-Phuc.mp3',
+            image: '/MusicPlayer/asset/img/anh_nang_cua_anh.jpg'
         },
         {
             name: 'Gác lại âu lo',
             singer: 'Da Lab',
-            path:'/asset/music/Gac-Lai-Au-Lo-Da-LAB-Miu-Le.mp3',
-            image: '/asset/img/gac_lai_au_lo.jpeg'
+            path:'/MusicPlayer/asset/music/Gac-Lai-Au-Lo-Da-LAB-Miu-Le.mp3',
+            image: '/MusicPlayer/asset/img/gac_lai_au_lo.jpeg'
         },
         {
             name: 'iu là đây',
             singer: 'Sean, Muooiji, Anfang',
-            path:'/asset/music/iu-la-day-Sean-Muoii-Anfang.mp3',
-            image: '/asset/img/iu_la_day.jpg'
+            path:'/MusicPlayer/asset/music/iu-la-day-Sean-Muoii-Anfang.mp3',
+            image: '/MusicPlayer/asset/img/iu_la_day.jpg'
         },
         {
             name: 'Ánh nắng của anh',
             singer: 'Đức Phúc',
-            path:'/asset/music/Anh-Nang-Cua-Anh-Cho-Em-Den-Ngay-Mai-OST-Duc-Phuc.mp3',
-            image: '/asset/img/anh_nang_cua_anh.jpg'
+            path:'/MusicPlayer/asset/music/Anh-Nang-Cua-Anh-Cho-Em-Den-Ngay-Mai-OST-Duc-Phuc.mp3',
+            image: '/MusicPlayer/asset/img/anh_nang_cua_anh.jpg'
         },
         {
             name: 'Gác lại âu lo',
             singer: 'Da Lab',
-            path:'/asset/music/Gac-Lai-Au-Lo-Da-LAB-Miu-Le.mp3',
-            image: '/asset/img/gac_lai_au_lo.jpeg'
+            path:'/MusicPlayer/asset/music/Gac-Lai-Au-Lo-Da-LAB-Miu-Le.mp3',
+            image: '/MusicPlayer/asset/img/gac_lai_au_lo.jpeg'
         }
+        
         
     ],
 
