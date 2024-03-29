@@ -228,7 +228,7 @@ const app = {
         cdanimate.play();
         toggle_play.children[1].style.display = "none";
         toggle_play.children[0].style.display = "block";
-        song.forEach((value) => {
+        songs.forEach((value) => {
           value.classList.remove("active");
         });
         this.classList.add("active");
