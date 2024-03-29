@@ -169,9 +169,11 @@ const app = {
     };
 
     btn_prev.onclick = function () {
+      songs[app.currentSongInd].classList.remove("active");
       app.currentSongInd =
         (app.currentSongInd - 1 + app.songs.length) % app.songs.length;
       app.loadSong();
+      songs[app.currentSongInd].classList.add("active");
       if (audio.played) {
         audio.play();
       }
