@@ -190,16 +190,19 @@ const app = {
         app.random ||
         app.currentSongInd + 1 < app.songs.length
       ) {
+        songs[app.currentSongInd].classList.remove("active");
         if (app.random) {
           app.currentSongInd = Math.floor(Math.random() * app.songs.length);
           console.log(app.currentSongInd);
         } else {
           app.currentSongInd = (app.currentSongInd + 1) % app.songs.length;
         }
-
+        songs[app.currentSongInd].classList.add("active");
         app.loadSong();
         if (audio.played) {
           audio.play();
+          toggle_play.children[1].style.display = "none";
+          toggle_play.children[0].style.display = "block";
         }
       }
     };
