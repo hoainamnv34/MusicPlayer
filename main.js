@@ -36,18 +36,6 @@ const app = {
       image: "/MusicPlayer/asset/img/anh_nang_cua_anh.jpg",
     },
     {
-      name: "Gác lại âu lo",
-      singer: "Da Lab",
-      path: "/MusicPlayer/asset/music/Gac-Lai-Au-Lo-Da-LAB-Miu-Le.mp3",
-      image: "/MusicPlayer/asset/img/gac_lai_au_lo.jpeg",
-    },
-    {
-      name: "Ánh nắng của anh",
-      singer: "Đức Phúc",
-      path: "/MusicPlayer/asset/music/Anh-Nang-Cua-Anh-Cho-Em-Den-Ngay-Mai-OST-Duc-Phuc.mp3",
-      image: "/MusicPlayer/asset/img/anh_nang_cua_anh.jpg",
-    },
-    {
       name: "Chết trong em",
       singer: "Thịnh Suy",
       path: "/MusicPlayer/asset/music/ChetTrongEm-ThinhSuy-8261960.mp3",
