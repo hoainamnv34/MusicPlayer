@@ -42,12 +42,6 @@ const app = {
       image: "/MusicPlayer/asset/img/gac_lai_au_lo.jpeg",
     },
     {
-      name: "iu là đây",
-      singer: "Sean, Muooiji, Anfang",
-      path: "/MusicPlayer/asset/music/iu-la-day-Sean-Muoii-Anfang.mp3",
-      image: "/MusicPlayer/asset/img/iu_la_day.jpg",
-    },
-    {
       name: "Ánh nắng của anh",
       singer: "Đức Phúc",
       path: "/MusicPlayer/asset/music/Anh-Nang-Cua-Anh-Cho-Em-Den-Ngay-Mai-OST-Duc-Phuc.mp3",
